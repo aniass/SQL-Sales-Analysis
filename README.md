@@ -18,10 +18,9 @@ The project is created with:
 **Running the project:**
 
 To use this project:
-
-    - clone the repository or download .sql files;
-    - ensure you have a SQL database set up to execute the provided SQL code;
-    - use your chosen SQL client to execute the code snippets (e.g. SQL Server Management Studio, MySQL Workbench).
+- clone the repository or download .sql files;
+- ensure you have a SQL database set up to execute the provided SQL code;
+- use your chosen SQL client to execute the code snippets (e.g. SQL Server Management Studio, MySQL Workbench).
 
 
 
