@@ -6,6 +6,16 @@ The project contains the analysis of example sales data with SQL.  The project s
 ### Dataset
 The dataset contains sample data about products sales. It includes three tables namely Customers, Products and Orders.
 
+### Summary
+
+**SQL Skills Used:**
+
+- JOINS,
+- aggregate functions,
+- subqueries,
+- window functions,
+- common table expressions (CTE).
+
 ### Project includes:
 - script for create database - **create_data.sql**
 - sales data analysis - **data_analysis.sql**
