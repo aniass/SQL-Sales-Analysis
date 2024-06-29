@@ -10,6 +10,7 @@ The dataset contains sample data about products sales. It includes three tables 
 
 **SQL Skills Used:**
 
+- create tables and insert data,
 - JOINS,
 - aggregate functions,
 - subqueries,
