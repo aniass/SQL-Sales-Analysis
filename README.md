@@ -8,6 +8,22 @@ The dataset contains sample data about products sales. It includes three tables 
 
 ### Summary
 
+#### Data Insights
+
+In the dataset asked the following questions:
+- Based on the information about customers what is the distribution of customers by gender, age and cities?
+- From which cities comes customers?
+- Which customers are spent the most?
+- What bought customers and how much they paid?
+- What is the total quantity of each product sold?
+- What is the average number of orders for each product?
+- What is the top-selling products based on their total revenue?
+- Which city brings in the most revenue?
+- What is the revenue by gender?
+- How is the ranking of the best customers?
+- What is the average sales on each age group?
+- What is the total number of products sold for each month?
+
 **SQL Skills Used:**
 
 - create tables and insert data,
