@@ -110,7 +110,7 @@ FROM
 SELECT a.product_id, AvgQuantity
 FROM
     (SELECT product_id, AVG(quantity) OVER(PARTITION BY product_id) AS AvgQuantity
-	 FROM SQLProject.dbo.Orders) a
+     FROM SQLProject.dbo.Orders) a
 ORDER BY a.product_id
 
 /* 14. Display the value of order based on based on the following criteria:
@@ -124,8 +124,8 @@ Solution by CASE STATEMENT.
 SELECT order_id,product_id, sales,
 CASE
     WHEN sales >= 1000 THEN 'high value'
-	WHEN sales <= 100 THEN 'low value'
-	ELSE 'medium value'
+    WHEN sales <= 100 THEN 'low value'
+    ELSE 'medium value'
 END AS order_value
 FROM SQLProject.dbo.Orders
 
@@ -134,10 +134,10 @@ FROM SQLProject.dbo.Orders
 
 WITH rank_cust AS(
     SELECT customer_id, 
-	       SUM(sales) AS total_sum_paid, 
-		   RANK() OVER(ORDER BY SUM(sales)) AS customer_rank
+	   SUM(sales) AS total_sum_paid, 
+	   RANK() OVER(ORDER BY SUM(sales)) AS customer_rank
     FROM SQLProject.dbo.Orders
-	GROUP BY customer_id
+    GROUP BY customer_id
 )
 SELECT * FROM rank_cust
 WHERE customer_rank >= 5
@@ -149,14 +149,14 @@ ORDER BY customer_rank DESC
 WITH age_spent AS(
     SELECT c.age,  AVG(o.sales) AS avg_sales,
 	CASE
-	    WHEN age BETWEEN 20 AND 29 THEN '20 - 29'
-		WHEN age BETWEEN 30 AND 39 THEN '30 - 39'
-		ELSE '>= 40'
+	WHEN age BETWEEN 20 AND 29 THEN '20 - 29'
+	WHEN age BETWEEN 30 AND 39 THEN '30 - 39'
+	ELSE '>= 40'
     END AS age_group
     FROM SQLProject.dbo.Customers c
-	JOIN SQLProject.dbo.Orders o
+    JOIN SQLProject.dbo.Orders o
         ON c.customer_id = o.customer_id
-	GROUP BY c.age
+    GROUP BY c.age
 )
 SELECT age_group, avg_sales
 FROM age_spent
