@@ -148,7 +148,7 @@ ORDER BY customer_rank DESC
 
 WITH age_spent AS(
     SELECT c.age,  AVG(o.sales) AS avg_sales,
-	CASE
+    CASE
 	WHEN age BETWEEN 20 AND 29 THEN '20 - 29'
 	WHEN age BETWEEN 30 AND 39 THEN '30 - 39'
 	ELSE '>= 40'
