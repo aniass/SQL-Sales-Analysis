@@ -143,7 +143,7 @@ SELECT * FROM rank_cust
 WHERE customer_rank >= 5
 ORDER BY customer_rank DESC
 
--- 16. What is the average sales on each age group
+-- 16. What is the average sales on each age group?
 -- Solution using by CTE with a join.
 
 WITH age_spent AS(
