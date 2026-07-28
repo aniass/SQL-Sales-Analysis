@@ -1,7 +1,7 @@
 # Sales analysis - SQL Data Analysis
 
 ## General info
-The project contains the analysis of example sales data with SQL.  The project showcase my knowledge and skils in SQL such as data manipulation, analysis and querying. The analysis was prepared with MS SQL Server database.
+The project contains the analysis of example sales data with SQL. The project showcase my knowledge and skils in SQL such as data manipulation, analysis and querying. The analysis was prepared with MS SQL Server database.
 
 ### Dataset
 The dataset was prepared especially for this project and contains sample data about products sales. It includes three tables namely Customers, Products and Orders.
@@ -10,7 +10,8 @@ The dataset was prepared especially for this project and contains sample data ab
 
 ### Data Insights
 
-In the dataset asked the following questions:
+To analyze the dataset I concluded the following questions:
+
 - Based on the information about customers what is the distribution of customers by gender, age and cities?
 - From which cities comes customers?
 - Which customers are spent the most?
