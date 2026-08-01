@@ -27,7 +27,7 @@ To analyze the dataset I concluded the following questions:
 
 **SQL Skills Used:**
 
-- create tables and insert data,
+- creating tables and insert data,
 - JOINS,
 - aggregate functions,
 - subqueries,
