@@ -36,7 +36,7 @@ INSERT INTO Customers VALUES
 (4, 'John Johnson', 32, 'Male', 'San Francisco'),
 (5, 'David Wilson', 35, 'Male', 'Boston'),
 (6, 'Roy Martin', 24, 'Male', 'San Francisco'),
-(7, 'Emily  Brown', 24, 'Female', 'New York City'),
+(7, 'Emily Brown', 24, 'Female', 'New York City'),
 (8, 'Jane Scoot', 31, 'Female', 'San Francisco'),
 (9, 'Stanley Malone', 30, 'Male', 'Boston'),
 (10, 'Anna Anderson', 35, 'Female', 'Los Angeles')
