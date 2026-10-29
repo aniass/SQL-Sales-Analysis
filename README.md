@@ -10,9 +10,9 @@ The dataset was prepared especially for this project and contains sample data ab
 
 ### Data Insights
 
-To analyze the dataset I concluded the following questions:
+Based on the information about customers I concluded the following questions:
 
-- Based on the information about customers what is the distribution of customers by gender, age and cities?
+- What is the distribution of customers by gender, age and cities?
 - From which cities comes customers?
 - Which customers are spent the most?
 - What bought customers and how much they paid?
